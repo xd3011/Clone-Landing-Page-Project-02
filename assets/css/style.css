@@ -16,6 +16,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.desc {
+    font-weight: 400;
+    color: #5f5b53;
+}
+
 /* ==============Common============== */
 .content {
     width: 1170px;
@@ -201,10 +206,8 @@ body {
 }
 
 .hero-content .desc {
-    font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #5f5b53;
 }
 
 .hero-content .hero-cta-group {
@@ -215,7 +218,7 @@ body {
 
 .hero-cta-group .hero-cta-btn {
     margin-right: 28px;
-    background: #ffb900;
+    background: var(--font-heading);
     border-radius: 32px;
     min-width: 180px;
 }
@@ -264,11 +267,9 @@ body {
     background: #e5e5e5;
 }
 
-.popular .desc {
-    font-weight: 400;
+.popular .popular-info .desc {
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #5f5b53;
 }
 
 .popular-top {
@@ -282,7 +283,7 @@ body {
     gap: 16px;
 }
 
-.popular-top .info {
+.popular-top .popular-info {
     width: 39%;
 }
 
@@ -349,10 +350,8 @@ body {
 .popular .desc {
     margin: 6px 0 12px;
     width: 88%;
-    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #5f5b53;
 }
 
 .popular .foot {
