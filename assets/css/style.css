@@ -322,6 +322,11 @@ body {
     margin-top: 55px;
 }
 
+.popular .course {
+    box-shadow: 0px 18px 36px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+}
+
 .popular .course-img {
     display: block;
     width: 370px;
@@ -383,4 +388,79 @@ body {
     background: var(--primary-color);
     cursor: pointer;
     border: 0px solid #fff;
+}
+
+/* ==============Feedback============== */
+
+.feedback {
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.feedback .info {
+    width: 14%;
+}
+
+.feedback .avatar {
+    display: block;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .title {
+    margin: 8px 0 4px;
+    font-family: var(--font-heading);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+}
+
+.feedback .desc {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+    margin-bottom: 28px;
+}
+
+.feedback .dots {
+    display: flex;
+    gap: 6px;
+}
+
+.feedback .dot {
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.feedback .active {
+    background: var(--primary-color);
+    border-radius: 50%;
+    cursor: default;
+}
+
+.feedback .feedback-content {
+    width: 66%;
+    margin-left: auto;
+}
+
+.feedback blockquote {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+    margin-left: 30px;
 }
