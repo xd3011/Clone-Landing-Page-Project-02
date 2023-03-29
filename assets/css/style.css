@@ -238,7 +238,7 @@ body {
 
 .hero-cta-group .hero-cta-btn {
     margin-right: 28px;
-    background: var(--font-heading);
+    background: var(--primary-color);
     min-width: 180px;
 }
 
